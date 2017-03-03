@@ -4,7 +4,7 @@
 <suite name="DianasTests">
     <test name="Athens Search">
         <classes>
-            <class name="com.epam.SearchAthens"/>
+            <class name="java.com.epam.SearchAthens"/>
         </classes>
     </test>
 </suite>
