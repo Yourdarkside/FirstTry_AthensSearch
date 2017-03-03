@@ -4,6 +4,7 @@
   <artifactId>SearchAthens</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <url>https://github.com/Yourdarkside/FirstTry_AthensSearch</url>
   <build>
   	<plugins>
 	  <plugin>
