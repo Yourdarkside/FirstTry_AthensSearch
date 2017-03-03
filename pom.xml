@@ -10,7 +10,6 @@
   <url>https://github.com/Yourdarkside/FirstTry_AthensSearch</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -27,7 +26,20 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.10</version>
-			<scope>test</scope>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>tests-xml/DianaTests.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
